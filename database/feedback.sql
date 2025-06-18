@@ -1,6 +1,6 @@
-CREATE DATABASE IF NOT EXISTS feedback_db;
+CREATE DATABASE IF NOT EXISTS feedback;
 
-USE feedback_db;
+USE feedback;
 
 CREATE TABLE IF NOT EXISTS feedback(
     id INT AUTO_INCREMENT PRIMARY KEY,
