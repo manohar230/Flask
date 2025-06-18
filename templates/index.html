@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% extends 'base.html'%}
+    {%block content%}
+    <h2 class="mb-4 text-center">Welcome to student Feedback portal</h2>
+    <div class="row justify-content-cneter">
+        <div class="col-md-6">
+            <div class="card shadow-lg">
+                <img src="" class="card-img-top" alt="collegeImage">
+                <div class="card-body">
+                    <h5 class="card-title">Manhitha Institute of technology</h5>
+                    <p class="class-text">
+                        Manhitha Institute of Technology (MIT), located in the heart of Hyderabad, is a premier engineering and technology institute committed to academic excellence and innovation. Affiliated with Jawaharlal Nehru Technological University (JNTU), the institute offers a range of undergraduate and postgraduate programs in Engineering, Computer Science, Electronics, and more.
+                    </p>
+                    <ul class="list-group list-group-flush mb-3">
+                        <li class="list-group-items">💻</li>
+                        <li class="list-group-items">💻</li>
+                        <li class="list-group-items">💻</li>
+                        <li class="list-group-items">💻</li>
+                        <li class="list-group-items">💻</li>
+                    </ul>
+                    <a href="/feedback" class="btn btn-primary">Submit Feedback</a>
+                    <a href="/admin" class="btn btn-primary">Admin panel</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+</body>
+</html>
