@@ -1,6 +1,6 @@
-db_config={
-    'host':'localhost',
-    'user':'root',
-    'password':'',
-    'database':'feedback'
+db_config = {
+    'host': 'localhost',
+    'user': 'root',
+    'password': '',
+    'database': 'feedback'
 }

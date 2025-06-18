@@ -1,11 +1,14 @@
+-- Create database
 CREATE DATABASE IF NOT EXISTS feedback;
 
+-- Use the database
 USE feedback;
 
-CREATE TABLE IF NOT EXISTS feedback(
+-- Create table with correct column names
+CREATE TABLE IF NOT EXISTS feedback (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    Student_name VARCHAR(100),
-    Emial VARCHAR(100),
-    comments TEXT,
+    student_name VARCHAR(100),
+    email VARCHAR(100),
+    comment TEXT,
     submitted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
