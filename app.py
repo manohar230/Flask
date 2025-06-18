@@ -33,5 +33,5 @@ def admin():
     feedbacks=cursor.fetchall()
     conn.close()
     return render_template('admin.html',feedbacks=feedbacks)
-if __name__=='__maim__':
+if __name__=='__main__':
     app.run(debug=True)
